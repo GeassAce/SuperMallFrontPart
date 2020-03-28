@@ -1,4 +1,5 @@
 # supermall
+一个自己学习用的vue前端部分，后端部分会在以后开发出来
 
 ## Project setup
 ```
