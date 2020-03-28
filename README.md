@@ -1,5 +1,5 @@
 # supermall
-一个自己学习用的vue
+一个自己学习用的vue,后续后端api会用netCore完成
 
 ## Project setup
 ```
