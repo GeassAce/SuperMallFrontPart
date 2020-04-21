@@ -8,8 +8,31 @@ function getHomeMultidata () {
   })
 }
 
+function getHomeData () {
+  return requestForMain({
+    method: 'get',
+    url: '/home/data?type=sell&page=3'
+  })
+}
+
+/*
+请求商品分页
+*/
+function getGoodListData (type, page) {
+  return requestForMain({
+    method: 'get',
+    url: '/home/data',
+    params: {
+      type: type,
+      page: page
+    }
+  })
+}
+
 const homeRequset = {
-  getHomeMultidata
+  getHomeMultidata,
+  getHomeData,
+  getGoodListData
 }
 
 export default homeRequset

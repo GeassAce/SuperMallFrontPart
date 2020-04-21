@@ -32,7 +32,7 @@ export default {
   padding: 1px 0px 5px 0px;
   font-size: 12px;
   text-align: center;
-  box-shadow: 0px 1px 1px  rgba(100,100,100,.2);
+  box-shadow: 0px 5px 1px  rgba(100,100,100,.2);
 }
 .recommandItem {
   flex: 1;
